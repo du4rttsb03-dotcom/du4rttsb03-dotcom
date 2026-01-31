@@ -3,7 +3,7 @@
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
    <img height="100px" src="https://ovicio.com.br/wp-content/uploads/2024/08/20240801-pain-naruto-destaque.jpg"/>
-   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=du4rttsb03-dotcom&layout=compact&langs_count=6&theme=tokyonight"/>
+   <img height="180em" src="file:///C:/Users/wesll/Downloads/IMG_20260103_142935_091.webp"/>
 </div>
     
 <div style="display: inline_block"><br>
@@ -17,7 +17,6 @@
 ### Acesse Minhas Redes 
  
 <div> 
-  <a href="https://www.youtube.com/du4rttsb03-dotcom" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
   <a href="https://instagram.com/du4rtt_dev" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
  <a href="https://discord.gg/5DVhGKVf4h" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
   <a href = "mailto:du4rtt.sb03@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
