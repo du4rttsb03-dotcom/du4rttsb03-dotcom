@@ -2,7 +2,7 @@
 
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
-   <img height="18px" src="[https://github-readme-stats.vercel.app/api?username=du4rttsb03-dotcom&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true](https://ovicio.com.br/wp-content/uploads/2024/08/20240801-pain-naruto-destaque.jpg)"/>
+   <img height="100px" src="[https://github-readme-stats.vercel.app/api?username=du4rttsb03-dotcom&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true](https://ovicio.com.br/wp-content/uploads/2024/08/20240801-pain-naruto-destaque.jpg)"/>
    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=du4rttsb03-dotcom&layout=compact&langs_count=6&theme=tokyonight"/>
 </div>
     
