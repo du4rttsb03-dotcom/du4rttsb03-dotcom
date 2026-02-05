@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Gabriel Duarte | Web Developer Portfolio</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&amp;family=Space+Grotesk:wght@300;500;700&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+ <script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: "#f97316", // Laranja vibrante (Orange 500 do Tailwind)
+                    "background-light": "#f8fafc",
+                    "background-dark": "#0a0a0a",
+                    "card-dark": "#171717",
+                },
+                fontFamily: {
+                    display: ["Space Grotesk", "sans-serif"],
+                    sans: ["Inter", "sans-serif"],
+                },
+                borderRadius: {
+                    DEFAULT: "0.5rem",
+                },
+            },
+        },
+    };
+</script>
+
+<style>
+    .img0{
+        height: 40px;
+        align-items: center;
+    }
+    .img1{
+        height: 30px;
+
+    }
+    .custom-cursor {
+        width: 20px;
+        height: 20px;
+        border: 2px solid #f97316; /* Atualizado para laranja */
+        border-radius: 50%;
+        position: fixed;
+        pointer-events: none;
+        z-index: 9999;
+        transition: transform 0.1s ease
+    }
+    /* ... resto do seu CSS permanece igual ... */
+</style>
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 font-sans selection:bg-primary selection:text-white overflow-x-hidden">
+    <div class="fixed inset-0 pointer-events-none noise-bg z-[60]"></div>
+    <nav class="fixed top-0 w-full z-50 px-6 py-8 flex justify-between items-center mix-blend-difference">
+        <a class="text-2xl font-display font-bold tracking-tighter text-white" href="#">GD.</a>
+        <div class="flex gap-8 items-center">
+            <a class="hidden md:block text-sm uppercase tracking-widest hover:text-primary transition-colors text-white"
+                href="#work">Projetos</a>
+            <a class="hidden md:block text-sm uppercase tracking-widest hover:text-primary transition-colors text-white"
+                href="#stacks">Stacks</a>
+            <a class="text-sm uppercase tracking-widest bg-white text-black px-6 py-2 rounded-full font-bold hover:bg-primary hover:text-white transition-all"
+                href="https://wa.me/5511933092177">Contato</a>
+        </div>
+    </nav>
+    <div class="fixed bottom-0 left-0 p-8 hidden xl:flex flex-col items-center gap-10 z-40">
+        <a class="vertical-text text-xs tracking-widest text-slate-500 hover:text-primary transition-colors transform rotate-180 uppercase [writing-mode:vertical-lr]"
+            href="mailto:gabriel@example.com">du4rtt.sb03@gmail.com</a>
+        <div class="w-px h-24 bg-slate-800"></div>
+    </div>
+    <main>
+        <section class="min-h-screen flex flex-col justify-center px-6 lg:px-24 relative overflow-hidden">
+            <div class="relative z-10">
+                <p class="reveal-up text-primary font-display font-medium tracking-[0.2em] uppercase mb-4 active">
+                    Meu Portfólio</p>
+                <h1
+                    class="reveal-up text-7xl md:text-[10rem] font-display font-extrabold leading-[0.9] tracking-tighter mb-8 active">
+                    GABRIEL<br />
+                    <span class="text-outline dark:text-outline italic">DUARTE</span>
+                </h1>
+                <div class="reveal-up active delay-300 max-w-xl">
+                    <p class="text-xl md:text-2xl text-slate-600 dark:text-slate-400 font-light leading-relaxed">
+                        Criação de experiências web com código limpo e design interativo.
+                        <span class="text-slate-900 dark:text-white font-medium">Código Limpo</span> e <span
+                            class="text-slate-900 dark:text-white font-medium">Design Interativo</span>.
+                    </p>
+                </div>
+            </div>
+            <div class="absolute -bottom-20 -right-20 w-96 h-96 bg-primary opacity-20 blur-[120px] rounded-full"></div>
+            <div class="absolute top-1/4 -left-20 w-64 h-64 bg-blue-500 opacity-10 blur-[100px] rounded-full"></div>
+        </section>
+        <section class="py-32 px-6 lg:px-24" id="work">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-20 gap-8">
+                <div>
+                    <span class="text-slate-500 font-display text-sm tracking-widest uppercase mb-4 block">_Trabalhos
+                        Selecionados</span>
+                    <h2 class="text-5xl md:text-7xl font-display font-bold">Projetos</h2>
+                </div>
+                <div class="text-right">
+                    <p class="text-slate-400 max-w-xs ml-auto">Plataformas construídas com arquiteturas
+                        modernas e interfaces centradas no usuário.
+                    </p>
+                </div>
+            </div>
+            <div class="space-y-32">
+                <div class="reveal-up group grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-7 overflow-hidden rounded-2xl bg-card-dark aspect-video relative">
+                        <img alt="Real Estate Platform Preview"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 opacity-80"
+                            src="./src/images/fundomagico.png" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </div>
+                    <div class="lg:col-span-5">
+                        <span class="text-primary font-display text-2xl mb-4 block">_01.</span>
+                        <h3
+                            class="text-4xl md:text-6xl font-display font-bold mb-6 group-hover:text-primary transition-colors">
+                            Fundo Mágico</h3>
+                        <div class="flex flex-wrap gap-3 mb-8">
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">JavaScript</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">N8N</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">Node.Js</span>
+                        </div>
+                        <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                            Projeto de IA integrada,com funções para criações de background criativos com IA,com
+                            automações com N8N e Gemini.
+                        </p>
+                        <a class="inline-flex items-center gap-2 text-white font-bold group/btn" href="#">
+                            View Case Study
+                            <span
+                                class="material-symbols-outlined group-hover/btn:translate-x-2 transition-transform">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="reveal-up group grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-5 order-2 lg:order-1">
+                        <span class="text-primary font-display text-2xl mb-4 block">_02.</span>
+                        <h3
+                            class="text-4xl md:text-6xl font-display font-bold mb-6 group-hover:text-primary transition-colors">
+                            Landing Page Duarte</h3>
+                        <div class="flex flex-wrap gap-3 mb-8">
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">JavaScript</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">HTML</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">CSS3</span>
+                        </div>
+                        <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                            Este projeto consiste em uma Landing Page responsiva desenvolvida para o Centro de Formação
+                            de Condutores Avant & Duarte. O objetivo principal foi transformar a presença digital da
+                            autoescola em uma ferramenta eficiente de captação de alunos, focando em clareza visual e
+                            facilidade de contato.
+                        </p>
+                        <a class="inline-flex items-center gap-2 text-white font-bold group/btn" href="#">
+                            View Case Study
+                            <span
+                                class="material-symbols-outlined group-hover/btn:translate-x-2 transition-transform">arrow_forward</span>
+                        </a>
+                    </div>
+                    <div
+                        class="lg:col-span-7 order-1 lg:order-2 overflow-hidden rounded-2xl bg-card-dark aspect-video relative">
+                        <img alt="Finance Dashboard Preview"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 opacity-80"
+                            src="./src/images/Auto-escola.png" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </div>
+                </div>
+                <div class="reveal-up group grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-7 overflow-hidden rounded-2xl bg-card-dark aspect-video relative">
+                        <img alt="DevLinks Preview"
+                            class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 opacity-80"
+                            src="./src/images/Linktree.png" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+                    </div>
+                    <div class="lg:col-span-5">
+                        <span class="text-primary font-display text-2xl mb-4 block">_03.</span>
+                        <h3
+                            class="text-4xl md:text-6xl font-display font-bold mb-6 group-hover:text-primary transition-colors">
+                            devLinks</h3>
+                        <div class="flex flex-wrap gap-3 mb-8">
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">Next.js</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">Drag
+                                &amp; Drop</span>
+                            <span
+                                class="px-4 py-1 rounded-full border border-slate-800 text-xs uppercase tracking-widest">Firebase</span>
+                        </div>
+                        <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                            Este projeto é um cartão de visitas digital desenvolvido para centralizar minha identidade
+                            profissional e links essenciais. A ideia aqui foi abandonar o excesso de informação e focar
+                            no que importa: quem eu sou, o que eu domino e como me encontrar, tudo isso com um código
+                            que carrega mais rápido do que a sua paciência em uma segunda-feira.
+                        </p>
+                        <a class="inline-flex items-center gap-2 text-white font-bold group/btn" href="#">
+                            View Case Study
+                            <span
+                                class="material-symbols-outlined group-hover/btn:translate-x-2 transition-transform">arrow_forward</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-32 bg-slate-100 dark:bg-card-dark/50 px-6 lg:px-24" id="stacks">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-20">
+                    <span class="text-primary font-display text-sm tracking-widest uppercase mb-4 block">Meu kit de
+                        ferramentas
+                    </span>
+                    <h2 class="text-5xl font-display font-bold">Minhas Stacks</h2>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                    <div
+                        class="group bg-white dark:bg-background-dark p-10 rounded-3xl border border-transparent hover:border-primary transition-all duration-500 text-center">
+                        <img alt="JavaScript" class="w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform"
+                            src="./src/images/javascript-original.svg" />
+                        <h4 class="font-bold text-xl mb-1">JavaScript</h4>
+                        <p class="text-slate-500 text-sm uppercase tracking-tighter">Linguagem principal
+                        </p>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-background-dark p-10 rounded-3xl border border-transparent hover:border-primary transition-all duration-500 text-center">
+                        <img alt="TypeScript" class="w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform"
+                            src="./src/images/typescript-original.svg" />
+                        <h4 class="font-bold text-xl mb-1">TypeScript</h4>
+                        <p class="text-slate-500 text-sm uppercase tracking-tighter">Digitação estática
+                        </p>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-background-dark p-10 rounded-3xl border border-transparent hover:border-primary transition-all duration-500 text-center">
+                        <img alt="React" class="w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform"
+                            src="./src/images/react-original.svg" />
+                        <h4 class="font-bold text-xl mb-1">React</h4>
+                        <p class="text-slate-500 text-sm uppercase tracking-tighter">Biblioteca de front-end
+                        </p>
+                    </div>
+                    <div
+                        class="group bg-white dark:bg-background-dark p-10 rounded-3xl border border-transparent hover:border-primary transition-all duration-500 text-center">
+                        <img alt="Angular" class="w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform"
+                            src="./src/images/angularjs-original.svg" />
+                        <h4 class="font-bold text-xl mb-1">Angular</h4>
+                        <p class="text-slate-500 text-sm uppercase tracking-tighter">Framework</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-40 px-6 lg:px-24 text-center relative overflow-hidden">
+            <div class="reveal-up relative z-10">
+                <p class="text-slate-500 text-lg mb-6">Tem um projeto em mente?</p>
+                <a class="text-4xl md:text-7xl font-display font-bold hover:text-primary transition-all break-all"
+                    href="mailto:du4rtt.sb03@gmail.com">
+                    du4rtt.sb03@gmail.com
+
+                </a>
+                <div
+                    class="mt-32 pt-20 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-8">
+                    <p class="text-slate-500 text-sm">Design criado por Du4rtt</p>
+                    <div class="flex gap-8">
+                        <a class="text-slate-400 hover:text-white transition-colors flex items-center gap-2" href="#">
+                            <span class="material-symbols-outlined text-sm"></span> 3
+                        </a>
+                        <a class="text-slate-400 hover:text-white transition-colors flex items-center gap-2" href="#">
+                            <span class="material-symbols-outlined text-sm">fork_right</span> 3
+                        </a>
+                    </div>
+                    <div class="flex gap-6">
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="https://www.linkedin.com/in/gabriel-duarte-754a263a7/"><span><img src="./src/images/linkedin-logo-linkedin-icon-transparent-free-png.webp" alt="" srcset="" class="img0"></span>LinkedIn</a>
+                        <a class="text-slate-400 hover:text-primary transition-colors" href="https://github.com/du4rttsb03-dotcom"><span><img src="./src/images/github-icon-2.svg" alt="" class="img1"></span>GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="absolute -bottom-10 left-1/2 -translate-x-1/2 text-[20vw] font-display font-black text-slate-900/10 dark:text-white/[0.02] whitespace-nowrap pointer-events-none select-none">
+                GABRIEL DUARTE
+            </div>
+        </section>
+    </main>
+    <div class="custom-cursor hidden md:block" id="cursor"></div>
+    <script>
+        // Custom Cursor Logic
+        const cursor = document.getElementById('cursor');
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX + 'px';
+            cursor.style.top = e.clientY + 'px';
+        });
+        // Hover Effect on Cursor
+        document.querySelectorAll('a, button, .group').forEach(el => {
+            el.addEventListener('mouseenter', () => cursor.style.transform = 'scale(2)');
+            el.addEventListener('mouseleave', () => cursor.style.transform = 'scale(1)');
+        });
+        // Scroll Reveal Logic
+        const observerOptions = {
+            threshold: 0.1
+        };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                }
+            });
+        }, observerOptions);
+        document.querySelectorAll('.reveal-up').forEach(el => observer.observe(el));
+        // Background Color Shift on Scroll (Subtle)
+        window.addEventListener('scroll', () => {
+            const scroll = window.scrollY;
+            const body = document.body;
+            if (scroll > 500) {
+                // Potential theme logic here
+            }
+        });
+    </script>
+
+</body>
+
+</html>
