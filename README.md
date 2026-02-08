@@ -1,4 +1,4 @@
-## Bem-vindo(a) ao perfil do Du4rtt-Dev 😁
+## Estudando Java Script para Dev Web 😁
 
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
