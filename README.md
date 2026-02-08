@@ -1,4 +1,4 @@
-## Estudando Java Script para Dev Web 😁
+## Estudando Java Script para Dev Web 
 
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
