@@ -11,7 +11,7 @@
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
- 
+ <a href="https://du4rttsb03-dotcom.github.io/du4rttsb03-dotcom/"><button>Meu site com projetos práticos</button></a>
 <br>
  
 ### Acesse Minhas Redes 
