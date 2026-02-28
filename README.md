@@ -1,4 +1,17 @@
-## Estudando Java Script para Dev Web 
+# Olá, eu sou [Seu Nome]! 👋
+
+Sou um estudante de desenvolvimento focado em criar soluções robustas e escaláveis utilizando o ecossistema **Microsoft .NET**. Atualmente, dedico meu tempo ao aperfeiçoamento de arquiteturas back-end e boas práticas de programação.
+
+### 🛠️ No que estou trabalhando:
+- 🔭 Atualmente estudando **ASP.NET Core** e **Entity Framework**.
+- 🌱 Aprofundando conhecimentos em **Design Patterns** e **Clean Architecture**.
+- 👯 Buscando contribuir em projetos Open Source e colaborativos.
+
+### 🚀 Minha Stack Técnica:
+- **Linguagem:** C# (LINQ, Async/Await, POO)
+- **Frameworks:** .NET 6+, ASP.NET Core Web API, Minimal APIs
+- **Banco de Dados:** SQL Server, PostgreSQL, Entity Framework Core
+- **Ferramentas:** Git, GitHub, Docker, Visual Studio / VS Code
 
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
