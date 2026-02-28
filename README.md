@@ -18,9 +18,10 @@ Sou um estudante de desenvolvimento focado em criar soluções robustas e escal�
    <img height="100px" src=""/>
    <img height="180em" src="https://mechanical-maroon-1ymxftrdwj.edgeone.app/IMG_20260103_142935_091.jpg"/>
 </div>
+ 
     
 <div style="display: inline_block"><br>
-  <img align="center" alt="Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
+   <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div>
