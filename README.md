@@ -2,7 +2,7 @@
 
  <div>
    <a href="https://github.com/du4rttsb03-dotcom">
-   <img height="100px" src="https://ovicio.com.br/wp-content/uploads/2024/08/20240801-pain-naruto-destaque.jpg"/>
+   <img height="100px" src=""/>
    <img height="180em" src="https://mechanical-maroon-1ymxftrdwj.edgeone.app/IMG_20260103_142935_091.jpg"/>
 </div>
     
