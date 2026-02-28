@@ -1,4 +1,4 @@
-# Olá, eu sou [Seu Nome]! 👋
+# Olá, Gabriel Duarte aqui! 👋
 
 Sou um estudante de desenvolvimento focado em criar soluções robustas e escaláveis utilizando o ecossistema **Microsoft .NET**. Atualmente, dedico meu tempo ao aperfeiçoamento de arquiteturas back-end e boas práticas de programação.
 
