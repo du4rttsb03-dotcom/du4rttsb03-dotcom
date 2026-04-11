@@ -21,7 +21,7 @@ Sou um estudante de desenvolvimento focado em criar soluções robustas e escal�
  
     
 <div style="display: inline_block"><br>
-   <img align="center" alt="HTML" height="30" width="40" src="file:///C:/Users/i5/Downloads/icons8-java-color/icons8-java-48.gif">
+   <img align="center" alt="HTML" height="30" width="40" src="https://image2url.com/r2/default/gifs/1775942529947-5eb5fe7b-06e4-47f8-8f20-d35c82f84cc1.gif">
    <img align="center" alt="HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg">
   <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
